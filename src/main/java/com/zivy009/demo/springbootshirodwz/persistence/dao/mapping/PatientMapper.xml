@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zivy009.demo.springbootshirodwz.persistence.dao.PatientMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.zivy009.demo.springbootshirodwz.persistence.model.Patient">
+		<id column="id" property="id" />
+		<result column="patient_id" property="patientId" />
+		<result column="patient_name" property="patientName" />
+		<result column="physician" property="physician" />
+		<result column="outpatient_room" property="outpatientRoom" />
+		<result column="physicist" property="physicist" />
+		<result column="diagnosis_desc" property="diagnosisDesc" />
+		<result column="prescription" property="prescription" />
+		<result column="technical" property="technical" />
+		<result column="telephone" property="telephone" />
+		<result column="disabled" property="disabled" />
+		<result column="registered_dt" property="registeredDt" />
+		<result column="created_username" property="createdUsername" />
+		<result column="modified_dt" property="modifiedDt" />
+		<result column="modified_username" property="modifiedUsername" />
+	</resultMap>
+
+</mapper>
